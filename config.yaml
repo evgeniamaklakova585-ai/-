@@ -1,0 +1,25 @@
+site:
+  base_url: "https://ru.tradingview.com/markets/currencies/rates-all"
+  tabs:
+    overview: "Обзор"
+    dynamics: "Динамика"
+    tech: "Теханализ"
+  items_count: 100
+
+paths:
+  data_dir: "data"
+  cache_dir: "cache"
+  logs_dir: "logs"
+
+selenium:
+  headless: true
+  timeout: 20
+  page_load_timeout: 30
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+
+cache:
+  ttl_seconds: 3600
+
+request:
+  retry_max: 3
+  retry_base_delay: 1
