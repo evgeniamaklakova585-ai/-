@@ -2,7 +2,7 @@ selenium==4.25.0
 webdriver-manager==4.0.2
 pandas==2.2.3
 PyYAML==6.0.2
-﻿backoff==2.2.1
+backoff==2.2.1
 beautifulsoup4==4.15.0
 certifi==2026.7.22
 charset-normalizer==3.5.1
